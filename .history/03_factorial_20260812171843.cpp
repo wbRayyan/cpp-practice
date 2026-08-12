@@ -10,6 +10,6 @@ int main() {
         fact *= n;
         n--;
     }
-    cout << "The factorial of given number is :" << fact;
+    cout << "The factorial of " << n << " is :" << fact;
     return 0;
 }

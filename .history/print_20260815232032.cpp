@@ -6,11 +6,11 @@ int main() {
     cout << "Enter the number = ";
     cin >> n;
      while(i<=n){
-        if(i%2==0){
+        if(n%2==0){
             sum += i;
         }
         i++;
      }
-     cout << "The sum of all even number upto " << n << " is " << sum ;
+     cout << 
     return 0;
 }

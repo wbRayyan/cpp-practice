@@ -6,7 +6,7 @@ int main() {
     cout << "Enter the number = ";
     cin >> n;
      while(i<=n){
-        if(i%2==0){
+        if(n%2==0){
             sum += i;
         }
         i++;

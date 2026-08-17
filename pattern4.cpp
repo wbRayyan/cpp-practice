@@ -1,18 +1,19 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(){
     cout << "Enter the number = ";
-    int n;
+    int n,i=0;
     cin >> n;
+    int seq=1;
     
-    int seq = 1;
-
-    for(int i=1 ; i<=n ; i++){
-        for(int j=0; j<n ; j++){
-            cout << seq ;
-            seq++;                  
+    while(i<n) {
+        for(int j=0 ; j<n ; j++){
+            cout << seq << "";
+            seq++;
         }
-    cout << "" <<endl;
+        i++;
+        cout << "" << endl;
     }
+    return 0;
 }

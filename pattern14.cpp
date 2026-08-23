@@ -23,25 +23,24 @@ int main() {
     }
 
     //BOTTOM PART
-    // for (int i=0 ; i<n ; i++) {
+    for (int i=0 ; i<n ; i++) {
 
-    //     for(int j=n ; j>0 ; j--){
-    //         cout << "* " ;
-    //     }
-    //     int j=j-1;
+        for(int j=0 ; j<n-1-i ; j++){
+            cout << "* " ;
+        }
 
-    //     if(i != 1 ){
-    //         for(int j=0 ; j<2*i ;j++){
-    //         cout << "5 ";
-    //         }
-    //     }
+        if(i != n-1 ){
+            for(int j=0 ; j<2*i+2 ;j++){
+            cout << "5 ";
+            }
+        }
 
-    //     for(int j=n ; j>0 ; j--){
-    //         cout << "* " ;
-    //     }
+        for(int j=0 ; j<n-1-i ; j++){
+            cout << "* " ;
+        }
     
-    // cout << endl;
-    // }
+    cout << endl;
+    }
 
     return 0;
 }

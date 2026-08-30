@@ -18,6 +18,10 @@ int main() {
     cout << "Enter the number you want to convert = "; 
     int n;
     cin >> n;
-    cout << decToBin(n) ;
+
+    for(int i=1 ; i<= n ; i++){
+        cout << decToBin(i) << endl;
+    }
+
     return 0;
 } 

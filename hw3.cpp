@@ -18,7 +18,7 @@ int main() {
     cout << "Enter the number you want to reverse = ";
     cin >> n;
     
-    cout << "The reverse of the number is "<< reverseOfANum(n) << endl;
+    cout << reverseOfANum(n) << endl;
 
     return 0;
 }

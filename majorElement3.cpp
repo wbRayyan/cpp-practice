@@ -34,5 +34,18 @@ int main() {
             freq--;
         }
     }
-    cout << "The major element of this array/vector is = " << ans << endl;
+
+    int actualCount = 0;
+    for (int i = 0; i < size; i++) {
+        if (nums[i] == ans) {
+            actualCount++;
+        }
+    }
+
+    if (actualCount > size / 2) {
+        cout << "The major element of this array/vector is = " << ans << endl;
+    } else {
+        cout << "-1" << endl;
+    }
+    return 0;
 }
